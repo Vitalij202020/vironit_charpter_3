@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: gainsboro;
+    max-width: 900px;
+    margin: 20vh auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    border-radius: 15%;
+    height: 50vh;
+}
+
+.button {
+    background-color: darkgrey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.enter {
+    background-color: #4CAF50;
+}
+
+.enter:hover {
+    background-color: #21bb21;
+}
+
+.recipe {
+    background-color: #008CBA;
+}
+
+.recipe:hover {
+    background-color: #0cb6ee;
+}
+
+.delete {
+    background-color: #ef4c40;
+}
+
+.delete:hover {
+    background-color: #fc1605;
+}
+
+.all {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.all:hover {
+    background-color: #fcfafa;
+    color: black;
+}
+
